@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <h1>rohit's component library</h1>
+    <p>I am attending neoG and I wanted to make a library that would help me create all my projects. </p>
+    <hr>
+
+    <h2>@Card</h2>
+    <div class="cards-container">
+        <div class="card">
+        <div class="header-row">
+          <div class="title">Card Heading</div>
+          <div class="title">X</div>
+        </div>
+  
+        <div class="body-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </div>
+  
+        <div class="footer">
+          <button>Yes</button>
+          <button>No</button>
+        </div>
+      </div>
+
+      <div class="card card-basic">
+        <div class="photu">
+          <img src="https://picsum.photos/200/300" height="200px" width="350px" />
+        </div>
+        <div class="header-col">
+          <div id="head"><b>Our Changing Planet</b></div>
+          <div id="author">by Kurl Mendes</div>
+        </div>
+  
+        <div class="body-text">
+          <p>
+            Visit these 10 places to explore the best an place has to offer.
+          </p>
+        </div>
+  
+        <div class="footer footer-basic">
+          <div><button id="read">READ</button></div>
+          <div><button id="bookmark">BOOKMARK</button></div>
+          <div>
+            <span class="material-icons">
+              favorite
+            </span>
+          </div>
+          <div>
+            <span class="material-icons">
+              share
+            </span>
+          </div>
+          <div>
+            <span class="material-icons">
+              more_vert
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-basic card-over">
+        <div class="photu photo-overlay">
+          <img src="https://picsum.photos/200/300" height="200px" width="350px" />
+        </div>
+        <div class="header-col text-overlay">
+          <div id="head"><b>Our Changing Planet</b></div>
+          <div id="author">by Kurl Mendes</div>
+        </div>
+  
+        <div class="body-text">
+          <p>
+            Visit these 10 places to explore the best an place has to offer.
+          </p>
+        </div>
+  
+        <div class="footer footer-basic">
+          <div><button id="read">READ</button></div>
+          <div><button id="bookmark">BOOKMARK</button></div>
+          <div>
+            <span class="material-icons">
+              favorite
+            </span>
+          </div>
+          <div>
+            <span class="material-icons">
+              share
+            </span>
+          </div>
+          <div>
+            <span class="material-icons">
+              more_vert
+            </span>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+
+      <hr>
+
+      <h2>@Button</h2>
+      <a class=" link link-primary" href="/">Primary Link</a>
+      <a class="link link-secondary" href="/">Secondary Link</a>
+
+      <button class="button link link-primary"> 
+        <span class="material-icons">
+                shopping_cart                
+        </span>
+     </button>
+     <button class="button link link-primary"> 
+        <span class="material-icons">
+                favorite                
+        </span>
+     </button>
+     
+     <a href="/" class="material-icons floating-btn">arrow_upward</a>
+
+      <hr>
+
+      <h2>@Badge</h2>
+
+      <button class="icon-button">
+        <span class="material-icons">shopping_bag</span>
+        <span class="icon-button_badge">2</span>
+      </button>
+
+      <!-- <span><a href="/" class="material-icons icon-button">shopping_bag</a></span><span class="icon-button_badge">5</span> -->
+
+      <button class="icon-button">
+        <span class="material-icons">notifications</span>
+        <span class="icon-button_badge">5</span>
+      </button>
+
+      <div><img src="https://i.pravatar.cc/300" alt="Avatar" class="icon-button avatar"> <div class="icon-button avatar icon-button_badge"></div></div>
+
+      <img src="https://i.pravatar.cc/400" alt="Avatar" class="icon-button avatar"> <span class="icon-button avatar icon-button_badge"></span>
+
+
+      <hr>
+      <h2>@Image</h2>
+
+      <img src="https://picsum.photos/200?grayscale" class="img-round"
+                >
+      <img src="https://picsum.photos/200/300?grayscale" sizes="(min-width:600px) 100px,200px">
+      
+      <hr>
+
+      <h2>@Alert</h2>
+      <div class="alert">
+          <div class="alert info">This is an simple alert
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>   
+            </div>
+          <div class="alert success">This is an success alert</div>
+          <div class="alert danger">This is an danger alert</div>
+          <div class="alert warning">This is an warning alert</div>
+      </div>
+
+      <hr>
+      <h2>@Input</h2>
+      
+        <label><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" class="input-val" required><br>
+    
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" class="input-val"required>
+
+      <hr>
+      
+    
+        
+    
+
+
+
+
+
+
+
+</body>
+</html>
