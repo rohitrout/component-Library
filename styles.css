@@ -58,24 +58,14 @@ hr{
   
 
   .card-basic {
-    /* display: flex; */
     height: 410px;  
     width: 340px;
-    /* flex-direction: column; */
     border-style: outset;
-    /* padding: 0px; */
-    /* background-color:lightskyblue; */
-    /* box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1); */
-    /* flex-direction: column; */
+    
   }
   
   .photu {
-    /* padding-top: 12px; */
     display: flex;
-    /* height: 200px; */
-    /* width: 340px; */
-  
-    /* background-color: wheat; */
   }
   
   .body-text {
@@ -103,11 +93,8 @@ hr{
   }
   
   .footer-basic {
-    /* display: flex; */
     color: darkgray;
     gap: 10px; 
-    /* padding: 10px; */
-    /* padding-left: 15px; */
   }
   
   #read,
@@ -151,9 +138,6 @@ hr{
       width: 80px;
       height: 80px;
       background: var(--primary-color);
-      /* display: none;
-      align-items: center;
-      justify-content: center; */
       text-align:center;
       padding: 10px;
       text-decoration: none;
@@ -164,24 +148,6 @@ hr{
       right: 20px;
       bottom: 20px;
   }
-  /* .notification{
-      background-color: var(--primary-color);
-      color: white;
-      text-decoration: none;
-      padding: 13px 15px;
-      position:relative;
-      display: inline-block;
-      border-radius: 2px;
-  }
-  .notification .badge{
-      position: absolute;
-      top: -10px;
-      right: -10px;
-      border-radius: 50%;
-      right: -10px;
-      padding: 5px 10px;
-      color: white;
-  } */
 
   .icon-button {
     position: relative;
@@ -215,23 +181,6 @@ hr{
       width: 70px;
       vertical-align: middle;
   }
-  /* .icon-button.avatar_badge{
-
-  } */
-  /* .avatar{
-      vertical-align: middle;
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      position: relative;
-      display: flex;
-     align-items: center;
-     justify-content: center;
-     color: white;
-     background: var(--primary-color);
-     border: none;
-     outline: none;
-  } */
   .img-round{
       border-radius: 50%;
   }
@@ -270,13 +219,6 @@ hr{
       background: yellow;
   }
 
-  /* .form-input{
-    position: absolute;
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
-  } */
   .input-val{
       border-radius: 12px;
       /* padding: 3rem 2 rem; */
