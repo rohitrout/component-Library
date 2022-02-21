@@ -16,8 +16,8 @@ hr{
 }
 .card {
     display: flex;
-    width: 400px;
-    height: 210px;
+    /* width: 400px;
+    height: 210px; */
     background-color: white;
     flex-direction: column;
     border-radius: 3px;
@@ -296,6 +296,56 @@ hr{
     color: #fff;
     font-weight: bold;
   }
+  .login-div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.form-container{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: white;
+    padding: 50px;
+    align-content: center;
+    /* margin: 20px 20px 20px 40rem; */
+    margin-left: 35%;
+    /* padding-left: 30%; */
+    
+}
+/* .wishlist-cart{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} */
+
+.wishlist-comp{
+    /* border: solid 1px blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    /* justify-content: start; */
+    padding-left: 1rem;
+    /* flex-direction: column; */
+}
+
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 62.5%;
+    }
+}
+@media only screen and (max-width: 300px){
+  html{
+      font-size: 30%;
+  }
+}
 
 
 
