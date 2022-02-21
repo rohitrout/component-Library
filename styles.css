@@ -370,6 +370,47 @@ hr{
     /* flex-direction: column; */
 }
 
+.home-page{
+  display: flex;
+  flex-direction: column;
+
+}
+.home-content{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+  height: 300px;
+}
+.slider-img{
+  border: 1px solid red;
+  height: 500px;
+  width: 100%;
+
+}
+.card-filter{
+  display: flex;
+  /* height: 500px; */
+  
+
+
+}
+.filter-home{
+  border: 1px solid red;
+  height: 500px;   
+  width: 200px;
+}
+.card-home{
+  padding: 1rem 2rem;
+  border: 1px solid red;
+  /* flex-grow: 1; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+
 
 @media only screen and (max-width: 600px){
     html{
