@@ -4,7 +4,7 @@
 body{
     font-family: sans-serif;
     background-color: lightgray;
-    padding: 1rem 1rem;
+   
   }
 hr{
     margin: 2rem 0rem;
@@ -16,8 +16,8 @@ hr{
 }
 .card {
     display: flex;
-    width: 400px;
-    height: 210px;
+    /* width: 400px;
+    height: 210px; */
     background-color: white;
     flex-direction: column;
     border-radius: 3px;
@@ -25,6 +25,8 @@ hr{
   }
   .card-mar{
     display: flex;
+    width: 400px;
+    height: 210px;
     flex-direction: row;
     background-color: white;
     flex-direction: column;
@@ -85,6 +87,12 @@ hr{
   flex-direction: column;
 
   }
+  .cart-details{
+    /* border: 1px solid red; */
+    height: 220px;
+    width: 300px;
+  }
+
 
   .card-basic {
     height: 410px;  
@@ -297,7 +305,7 @@ hr{
     display: inline-block;
   }
   .header__nav a {
-    padding: 8px;
+    padding: 3px;
   }
  
   a {
