@@ -78,7 +78,7 @@ hr{
   .cart-contain{
     display: flex;
   }
-  .card-cart{
+  .card-cart-m{
     height: 220px;
   display: flex;
   border-style: outset;
@@ -87,14 +87,32 @@ hr{
   flex-direction: column;
 
   }
+  .card-cart{    
+        
+    gap: 40%;
+    display: flex;
+    border-style: outset;
+    background-color: white;
+    padding-top: 3rem;  
+   
+    /* flex-direction: column; */
+  
+    }
   .cart-details{
     /* border: 1px solid red; */
     height: 220px;
     width: 300px;
   }
 
-
   .card-basic {
+    /* height: 410px;   */
+    width: 360px;
+    border-style: outset;
+    
+  }
+
+
+  .card-basic-m {
     height: 410px;  
     width: 340px;
     border-style: outset;
