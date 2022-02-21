@@ -378,11 +378,11 @@ hr{
 .home-content{
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 300px;
 }
 .slider-img{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 500px;
   width: 100%;
 
@@ -395,13 +395,13 @@ hr{
 
 }
 .filter-home{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 500px;   
   width: 200px;
 }
 .card-home{
   padding: 1rem 2rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* flex-grow: 1; */
   width: 100%;
   display: flex;
