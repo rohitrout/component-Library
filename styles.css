@@ -4,6 +4,7 @@
 body{
     font-family: sans-serif;
     background-color: lightgray;
+    padding: 1rem 1rem;
   }
 hr{
     margin: 2rem 0rem;
@@ -56,6 +57,25 @@ hr{
     margin-right: 16px;
   }
   
+  .desc-card{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction:column;
+  gap: 1rem;
+  }
+  .cart-contain{
+    display: flex;
+  }
+  .card-cart{
+    height: 220px;
+  display: flex;
+  border-style: outset;
+  background-color: white;
+  padding: 0px;  
+  flex-direction: column;
+
+  }
 
   .card-basic {
     height: 410px;  
