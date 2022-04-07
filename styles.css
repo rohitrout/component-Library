@@ -1,5 +1,6 @@
 :root{
     --primary-color: #9b68f1;
+    --error-color:red;
 }
 body{
     font-family: sans-serif;
@@ -257,8 +258,8 @@ hr{
   }
 
   .icon-button.avatar{
-      height: 70px;
-      width: 70px;
+      height: 4rem;
+      width: 4rem;
       vertical-align: middle;
   }
   .img-round{
@@ -306,7 +307,7 @@ hr{
       max-width: 300px;
   }
   .input-val.error{
-    border:1px solid red;
+    border:1px solid var(--error-color);
 
   }
   input[type=text], input[type=password] {
