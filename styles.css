@@ -1,5 +1,6 @@
 :root{
     --primary-color: #9b68f1;
+    --error-color:red;
 }
 body{
     font-family: sans-serif;
@@ -223,6 +224,25 @@ hr{
     border-radius: 50%;
   }
 
+  .list-non-bullet{
+    list-style: none;
+ }
+ .list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.notification-below {
+  position: fixed;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  text-align:center;
+  border-radius: 2px;
+  background: #ac83f3;
+}
+
+
   .icon-button_badge {
     position: absolute;
     top: -10px;
@@ -236,9 +256,10 @@ hr{
     align-items: center;
     border-radius: 50%;
   }
+
   .icon-button.avatar{
-      height: 70px;
-      width: 70px;
+      height: 4rem;
+      width: 4rem;
       vertical-align: middle;
   }
   .img-round{
@@ -285,11 +306,15 @@ hr{
       border: 1px solid #9b68f1;
       max-width: 300px;
   }
+  .input-val.error{
+    border:1px solid var(--error-color);
+
+  }
   input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
-    border: none;
+    border: 1px solid #9b68f1;
     background: #f1f1f1;
   }
 
